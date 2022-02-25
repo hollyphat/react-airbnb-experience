@@ -7,7 +7,15 @@ function App() {
     <div className="App">
       <Navbar />
       {/* <Hero /> */}
-      <Card />
+      <Card
+        img="katie-zaferes.png"
+        rating="5.0"
+        reviewCount={6.0}
+        country="Austria"
+        title="Life lessons with Katie Zaferes"
+        price={136}
+       />
+      
     </div>
   );
 }
